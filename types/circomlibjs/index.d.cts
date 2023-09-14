@@ -47,6 +47,10 @@ export class SMTMemDb {
 }
 
 export interface BabyJub {
+    Generator: Point;
+    
+    Base8: Point;
+    
     addPoint(a: Point, b: Point): Point;
 
     mulPointEscalar(base: Point, e: BigNumberish): Point;
